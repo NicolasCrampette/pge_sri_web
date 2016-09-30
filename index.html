@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -36,13 +36,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Le projet</a></li>
-            <li><a href="#">Organisation</a></li>
-            <li><a href="#">Le résultat</a></li>
-            <li><a href="#">L'équipe</a></li>
+            <li><a href="#projet">Le projet</a></li>
+            <li><a href="#organisation">Organisation</a></li>
+            <li><a href="#resultat">Le résultat</a></li>
+            <li><a href="#equipe">L'équipe</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -51,7 +51,7 @@
 
       <div id="projet" class="panel panel-primary">
         <div class="panel-heading">
-          <h3 id="projet" class="panel-title">Le projet</h3>
+          <h3 class="panel-title">Le projet</h3>
         </div>
         <div class="panel-body">
           Démonstrateur de petits objets célestes
@@ -68,7 +68,7 @@
         </div>
       </div>
 
-      <div id="résultat" class="panel panel-primary">
+      <div id="resultat" class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Le résultat</h3>
         </div>
@@ -77,13 +77,522 @@
         </div>
       </div>
 
-      <div id="équipe" class="panel panel-primary">
+      <div id="equipe" class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">L'équipe</h3>
         </div>
         <div class="panel-body">
-          Trombinoscope avec le rôle joué par chacun et le travail effectué.
-          Peut-être mini-cv perso
+          <h2 class="text-center bg-success">Équipe encadrante</h2>
+            <div class="row">
+              <div class="media col-md-6">
+                <div class="media-left">
+                  <a href="#">
+                    <img height=100 class="media-object" src="img/trombinoscope/Frederic_Lerasle.jpg" alt="Frédéric Lerasle"/>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">Frédéric Lerasle</h3>
+                  <h4 class="media-heading">Rôle</h4>
+                  <p>Rôle encore non définie.</p>
+                </div>
+              </div>
+              <div class="media col-md-6">
+                <div class="media-left">
+                  <a href="#">
+                    <img height=100 class="media-object" src="img/trombinoscope/Isabelle_Ferrane.jpg" alt="Isabelle Ferrané"/>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">Isabelle Ferrané</h3>
+                  <h4 class="media-heading">Rôle</h4>
+                  <p>Rôle encore non définie.</p>
+                </div>
+              </div>
+            </div>
+
+          <h2 class="text-center bg-success">Clients</h2>
+          <div class="row">
+            <div class="media col-md-6">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Michel_Delpech.jpg" alt="Michel Delpech"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Michel Delpech</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+              </div>
+            </div>
+            <div class="media col-md-6">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Alex_Torres.jpg" alt="Alex Torres"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Alex Torres</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="text-center bg-success">Fournisseurs</h2>
+
+          <ul class="media-list">
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Alexandre_Gounin.jpg" alt="Alexandre Gounin"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Alexandre Gounin</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Aurelien_Sevilla.jpg" alt="Aurelien Sévilla"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Aurelien Sévilla</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Bastien_Macera.jpg" alt="Bastien Macéra"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Bastien Macéra</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Benjamin_Bernaud.jpg" alt="Benjamin Bernaud"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Benjamin Bernaud</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Benjamin_Chamand.jpg" alt="Benjamin Chamand"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Benjamin Chamand</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Clement_Bazerque.jpg" alt="Clément Bazerque"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Clément Bazerque</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Clement_Olalainty.jpg" alt="Clément Olalainty"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Clément Olalainty</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Estelle_Randria.jpg" alt="Estelle Randria"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Estelle Randria</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Gabriel_Del-Rey.jpg" alt="Gabriel Del-Rey"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Gabriel Del-Rey</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Gilles_Lacroix.jpg" alt="Gilles Lacroix"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Gilles Lacroix</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Guillaume_Couly.jpg" alt="Guillaume Couly"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Guillaume Couly</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Jean-David_Labrousse.jpg" alt="David Labrousse"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">David Labrousse</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Kevin_Rolland.jpg" alt="Kévin Rolland"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Kévin Rolland</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Mathieu_Belloc.jpg" alt="Mathieu Belloc"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Mathieu Belloc</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Maxime_Pibarot.jpg" alt="Maxime Pibarot"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Maxime Pibarot</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Maxime_Rivalin.jpg" alt="Maxime Rivalin"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Maxime Rivalin</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Maxime_Sanmartin.jpg" alt="Maxime Sanmartin"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Maxime Sanmartin</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Morgan_Chabaud.jpg" alt="Morgan Chabaud"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Morgan Chabaud</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Nicolas_Crampette.jpg" alt="Nicolas Crampette"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Nicolas Crampette</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Paul_Mesnilgrente.jpg" alt="Paul Mesnilgrente"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Paul Mesnilgrente</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Pierre_Moras-Eychenne.jpg" alt="Pierre Moras-Eychenne"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Pierre Moras-Eychenne</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Pierre_Saellins.jpg" alt="Pierre Saëllins"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Pierre Saëllins</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Raphael_Lefevre.jpg" alt="Raphael Lefèvre"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Raphael Lefèvre</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Robin_Jammes.jpg" alt="Robin Jammes"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Robin Jammes</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img height=100 class="media-object" src="img/trombinoscope/Vincent_Vigie.jpg" alt="Vincent Vigié"/>
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Vincent Vigié</h3>
+                <h4 class="media-heading">Rôle</h4>
+                <p>Rôle encore non définie.</p>
+                <h4 class="media-heading">Travail effectué</h4>
+                <ul>
+                  <li>Participation aux réunions</li>
+                  <li>Construction de l'arbre des produits</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          Peut-être mini-cv perso ?
         </div>
       </div>
 
