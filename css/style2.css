@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'Eras Light ITC';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Eras Light ITC'), url('../fonts/ERASLGHT.woff') format('woff');
+}
+
+body{
+	background-color: #e8e8e8;
+	margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+a{
+	color: #eee;
+}
+
+.row{
+	width: 100%;
+	margin: 0;
+}
+
+.head{
+	height: 250px;
+	background-image: url("../img/bg.jpg");
+	-moz-box-align: end;
+    align-items: flex-end;
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 12rem;
+    position: relative;
+    width: 100%;
+}
+
+.logo{
+	text-align: center;
+	margin: 1em 0;
+	height: 100%;
+	margin: 1em 0;
+}
+
+.logo .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo img{
+	max-width: 60%;
+}
+
+/* ======================= NAVBAR ======================= */
+
+.navbar-inverse, .head, .footer{
+	background-color: #0C2199;
+}
+
+.navbar-inverse{
+	border: none;
+	border-radius: 0;
+	z-index: 9999;
+}
+
+nav li a{
+	font-size: 20;
+}
+
+nav li{
+	margin: 0 15;
+}
+
+nav, #title, #subtitle{
+	font-family: "Eras Light ITC",  sans-serif;
+}
+
+.navbar-inverse .navbar-nav li > a{
+	color: #EEE;
+}
+
+.navbar-inverse .navbar-nav li > a:hover{
+	text-decoration: underline;
+}
+
+.navbar-inverse .navbar-nav > a, .navbar-inverse .navbar-nav > a:hover{
+	background-color: #FFF;
+}
+
+.navbar-header{
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle{
+	color: inherit;
+	border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: inherit;
+}
+
+.navbar-collapse{
+	border: none;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+	margin-left: 0;
+}
+
+.presentation{
+	background-color: #fff;
+	text-align: justify;
+	padding: 30 15;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.photo{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	width: 30%;
+}
+
+.photo img{
+	width: 100%;
+	border: 4px solid #e8e8e8;
+}
+
+/* ========================== FOOTER ============================ */
+
+.footer{
+	color: #FFF;
+	padding: 10 0;
+	text-align: justify;
+}
+
+ul{
+	padding: 0;
+	list-style: outside none none;
+}
+
+.footer .social_icons .fa{
+	margin: 10 10 0 0;
+	width: 65px;
+	padding: 18 0;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	text-align: center;
+	transition: all ease 0.6s;
+}
+
+.footer .social_icons .fa:hover{
+	background-color: #fff;
+	color: #0C2199;
+}
+
+.copyright{
+	text-align: center;
+}
