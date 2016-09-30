@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PGE 2017 - Démonstrateur d'aterrissage sur petits objets céleste</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PGE 2017</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Le projet</a></li>
+            <li><a href="#">Organisation</a></li>
+            <li><a href="#">Le résultat</a></li>
+            <li><a href="#">L'équipe</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+
+      <div id="projet" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 id="projet" class="panel-title">Le projet</h3>
+        </div>
+        <div class="panel-body">
+          Démonstrateur de petits objets célestes
+        </div>
+      </div>
+
+      <div id="organisation" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Organisation</h3>
+        </div>
+        <div class="panel-body">
+          Cycle en V et scrum pour le développement.
+          Répartition en module etc.
+        </div>
+      </div>
+
+      <div id="résultat" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Le résultat</h3>
+        </div>
+        <div class="panel-body">
+          Une vidéo explicative du résultat. Promotion du projet
+        </div>
+      </div>
+
+      <div id="équipe" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">L'équipe</h3>
+        </div>
+        <div class="panel-body">
+          Trombinoscope avec le rôle joué par chacun et le travail effectué.
+          Peut-être mini-cv perso
+        </div>
+      </div>
+
+      <div id="contact" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Contact</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-6">
+              <address>
+                <strong>UPSSITECH</strong><br>
+                118, route de Narbonne<br>
+                31062 Toulouse<br>
+                <abbr title="Téléphone">Tél:</abbr> (+33) 5 61 55 66 11
+              </address>
+
+              <address>
+                <strong>Université Paul Sabatier, Sciences et TECHnologie</strong><br>
+                <a href="mailto:#upssitech@univ-tlse3.fr">upssitech@univ-tlse3.fr</a>
+              </address>
+            </div>
+            <div class="col-md-6">
+              <address>
+                <strong>CNES</strong><br>
+                18 Avenue Edouard Belin<br>
+                31400 Toulouse<br>
+                <abbr title="Téléphone">Tél:</abbr> (+33) 5 61 27 31 31
+              </address>
+
+              <address>
+                <strong>Centre Nationel d'Études spatiales</strong><br>
+                <a href="https://cnes.fr/fr/contactez-nous">https://cnes.fr/fr/contactez-nous</a>
+              </address>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/google_map.js" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd_TUBoWAtz9k51qDJlBQetw_NV5_-s1A&callback=initMap" async defer></script>
+  </body>
+</html>
